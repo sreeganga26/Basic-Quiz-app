@@ -1,37 +1,37 @@
 const questions = [
     {
-        question: "Which of these is a function of the stock exchange?",
+        question: "Which function is used to serialize an object into a JSON string in Javascript?",
         answers:[
-            { text: "Role of an economic barometer", correct: false},
-            { text: "Valuation of securities", correct: false},
-            { text: "Encouraging investments and savings", correct: false},
-            { text: "All of the above", correct: true},
+            { text: "stringify()", correct: true},
+            { text: "parse()", correct: false},
+            { text: "convert()", correct: false},
+            { text: "None of the above", correct: false},
         ]
     },
     {
-        question: "Trade between two countries can be useful if cost ratios of goods are:",
+        question: "Which object in Javascript doesn’t have a prototype?",
         answers:[
-            { text: "Undetermined", correct: false},
-            { text: "Decreasing", correct: false},
-            { text: "Equal", correct: false},
-            { text: "Different", correct: true},
+            { text: "Base Object", correct: true},
+            { text: "All objects have prototype", correct: false},
+            { text: "None of the objects have a prototype", correct: false},
+            { text: "None of the above", correct: false},
         ] 
     },
     {
-        question: "The term Euro Currency market refers to",
+        question: "Which of the following are closures in Javascript?",
         answers:[
-            { text: "The international foreign exchange market", correct: false},
-            { text: "The market where the borrowing and lending of currencies take place outside the country of issue", correct: true},
-            { text: " The countries which have adopted Euro as their currency", correct: false},
-            { text: "The market in which Euro is exchanged for other currencies", correct: false},
+            { text: "variables", correct: false},
+            { text: "Functions", correct: false},
+            { text: "Objects", correct: false},
+            { text: "All of the above", correct: true},
         ]   
     },
     {
-        question: "International trade and domestic trade differ because of:",
+        question: "Which of the following are not server-side Javascript objects?",
         answers:[
-            { text: "Different government policies", correct: false},
-            { text: "Immobility of factors", correct: false},
-            { text: "Trade restrictions", correct: false},
+            { text: "Date", correct: false},
+            { text: "File upload", correct: false},
+            { text: "Function", correct: false},
             { text: "All of the above", correct: true},
         ] 
     }
